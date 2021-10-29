@@ -41,8 +41,9 @@
           } else if (data.autoJibunAddress == "") {
             jibunAddress = data.jibunAddress
           }
-
+          var Keyadress = data.bname + data.bname1
           var postData = {
+              keyadress: Keyadress,
               roadAddress : data.roadAddress,
               jibunAddress : jibunAddress,
               zonecode : data.zonecode
